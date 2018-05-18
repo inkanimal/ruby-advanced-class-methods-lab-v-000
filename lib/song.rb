@@ -30,7 +30,7 @@ class Song
   
   
   #find out if the song already exists
-  #is it does not exist create new song and return
+  #if it does not exist create new song and return
   
   def self.find_or_create_by_name(name)
     # song_exist = self.all.detect{|s| s.name == name} 
